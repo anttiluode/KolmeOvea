@@ -1,5 +1,7 @@
 # KolmeOvea — three doors on one pyramidal cell
 
+EDIT: Added the V1 subfolder that asks: "KolmeOvea v1 — do the three doors survive training?"
+
 A pyramidal cell has three separate places where it can be controlled, and recent anatomy and physiology give each one a distinct job:
 
 | door | where | what it controls | papers behind it |
