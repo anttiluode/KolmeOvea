@@ -1,0 +1,700 @@
+{
+ "C1_regular_clock_cue_everywhere": {
+  "models": {
+   "doors": {
+    "acc": 0.9999,
+    "leak": 0.0018206128850579261,
+    "unatt": 0.0001,
+    "cueflip": 0.9999,
+    "n": 5,
+    "min_acc": 0.9995
+   },
+   "vanilla": {
+    "acc": 0.9935,
+    "leak": 0.011246599536389113,
+    "unatt": 0.0060999999999999995,
+    "cueflip": 0.9928000000000001,
+    "n": 5,
+    "min_acc": 0.971
+   },
+   "gru": {
+    "acc": 0.9999,
+    "leak": 0.004954304685816169,
+    "unatt": 0.0001,
+    "cueflip": 1.0,
+    "n": 5,
+    "min_acc": 0.9995
+   }
+  },
+  "damage_mean": [
+   [
+    -2.0020020020015094e-07,
+    0.0001972266938537359,
+    0.0002,
+    -0.00020020020020017812
+   ],
+   [
+    0.00039979979979980017,
+    0.00028056066948920486,
+    0.0008,
+    0.00039979979979980017
+   ],
+   [
+    -2.0020020020015094e-07,
+    0.00022400969173759223,
+    0.0002,
+    0.00039999999999995595
+   ],
+   [
+    0.0,
+    0.7412950864061714,
+    0.0,
+    0.0
+   ]
+  ],
+  "survival": {
+   "apical_clamp": "0/5",
+   "basket_clamp": "0/5",
+   "basket_context_clamp": "0/5",
+   "ais_open": "5/5"
+  },
+  "admission": {
+   "modeA_itemsA": 0.7989924669265747,
+   "modeA_itemsB": 0.7901957869529724,
+   "modeB_itemsA": 0.8001525402069092,
+   "modeB_itemsB": 0.7932804465293884,
+   "unit_phase_selectivity": 0.14534841179847718,
+   "unit_mode_selectivity": 0.006757793202996254,
+   "unit_mode_x_phase_attention": 0.002165141329169273
+  },
+  "per_seed": [
+   {
+    "seed": 0,
+    "none": {
+     "acc": 1.0,
+     "leak": 0.003,
+     "unatt": 0.001,
+     "cueflip": 1.0
+    },
+    "apical_clamp": {
+     "acc": 1.0,
+     "leak": 0.003,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_clamp": {
+     "acc": 1.0,
+     "leak": 0.003,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "ais_open": {
+     "acc": 1.0,
+     "leak": 0.63,
+     "unatt": 0.001,
+     "cueflip": 1.0
+    },
+    "basket_context_clamp": {
+     "acc": 1.0,
+     "leak": 0.003,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    }
+   },
+   {
+    "seed": 1,
+    "none": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "apical_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.001,
+     "cueflip": 1.0
+    },
+    "basket_clamp": {
+     "acc": 0.999,
+     "leak": 0.002,
+     "unatt": 0.002,
+     "cueflip": 1.0
+    },
+    "ais_open": {
+     "acc": 1.0,
+     "leak": 0.744,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_context_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.001,
+     "cueflip": 1.0
+    }
+   },
+   {
+    "seed": 2,
+    "none": {
+     "acc": 1.0,
+     "leak": 0.001,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "apical_clamp": {
+     "acc": 1.0,
+     "leak": 0.001,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 0.999
+    },
+    "ais_open": {
+     "acc": 1.0,
+     "leak": 0.814,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_context_clamp": {
+     "acc": 1.0,
+     "leak": 0.001,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    }
+   },
+   {
+    "seed": 3,
+    "none": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "apical_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.001,
+     "cueflip": 1.0
+    },
+    "ais_open": {
+     "acc": 1.0,
+     "leak": 0.78,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_context_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    }
+   },
+   {
+    "seed": 4,
+    "none": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "apical_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "ais_open": {
+     "acc": 1.0,
+     "leak": 0.747,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    },
+    "basket_context_clamp": {
+     "acc": 1.0,
+     "leak": 0.002,
+     "unatt": 0.0,
+     "cueflip": 1.0
+    }
+   }
+  ],
+  "e_hold": 0.004227232979610562,
+  "e_probe": 0.9954740405082703
+ },
+ "C2_jittered_clock_cue_everywhere": {
+  "models": {
+   "doors": {
+    "acc": 0.9702,
+    "leak": 0.0022647928446531294,
+    "unatt": 0.0457,
+    "cueflip": 0.9715999999999999,
+    "n": 5,
+    "min_acc": 0.955
+   },
+   "vanilla": {
+    "acc": 0.9771000000000001,
+    "leak": 0.013640094362199307,
+    "unatt": 0.0377,
+    "cueflip": 0.9752000000000001,
+    "n": 5,
+    "min_acc": 0.9625
+   },
+   "gru": {
+    "acc": 0.9699,
+    "leak": 0.014053938537836074,
+    "unatt": 0.0505,
+    "cueflip": 0.9754999999999999,
+    "n": 5,
+    "min_acc": 0.963
+   }
+  },
+  "damage_mean": [
+   [
+    0.0261829601864642,
+    1.0622455738484859e-05,
+    0.045599999999999995,
+    0.027353930142124634
+   ],
+   [
+    0.4777033290601775,
+    -0.0008608298143371939,
+    0.8962,
+    0.469205614151561
+   ],
+   [
+    0.0307965940925276,
+    -0.00014230464585125447,
+    0.042199999999999994,
+    0.03515011574996847
+   ],
+   [
+    0.0,
+    0.6460920382291079,
+    0.0,
+    0.0
+   ]
+  ],
+  "survival": {
+   "apical_clamp": "0/5",
+   "basket_clamp": "0/5",
+   "basket_context_clamp": "0/5",
+   "ais_open": "5/5"
+  },
+  "admission": {
+   "modeA_itemsA": 0.7161237478256226,
+   "modeA_itemsB": 0.6713365316390991,
+   "modeB_itemsA": 0.7169515490531921,
+   "modeB_itemsB": 0.672072422504425,
+   "unit_phase_selectivity": 0.294120991230011,
+   "unit_mode_selectivity": 0.020630479604005814,
+   "unit_mode_x_phase_attention": 0.004612994659692049
+  },
+  "per_seed": [
+   {
+    "seed": 0,
+    "none": {
+     "acc": 0.972,
+     "leak": 0.002,
+     "unatt": 0.046,
+     "cueflip": 0.97
+    },
+    "apical_clamp": {
+     "acc": 0.934,
+     "leak": 0.002,
+     "unatt": 0.102,
+     "cueflip": 0.948
+    },
+    "basket_clamp": {
+     "acc": 0.736,
+     "leak": 0.001,
+     "unatt": 0.501,
+     "cueflip": 0.743
+    },
+    "ais_open": {
+     "acc": 0.972,
+     "leak": 0.566,
+     "unatt": 0.046,
+     "cueflip": 0.97
+    },
+    "basket_context_clamp": {
+     "acc": 0.945,
+     "leak": 0.002,
+     "unatt": 0.087,
+     "cueflip": 0.952
+    }
+   },
+   {
+    "seed": 1,
+    "none": {
+     "acc": 0.98,
+     "leak": 0.002,
+     "unatt": 0.036,
+     "cueflip": 0.978
+    },
+    "apical_clamp": {
+     "acc": 0.956,
+     "leak": 0.002,
+     "unatt": 0.07,
+     "cueflip": 0.952
+    },
+    "basket_clamp": {
+     "acc": 0.749,
+     "leak": 0.001,
+     "unatt": 0.485,
+     "cueflip": 0.745
+    },
+    "ais_open": {
+     "acc": 0.98,
+     "leak": 0.677,
+     "unatt": 0.036,
+     "cueflip": 0.978
+    },
+    "basket_context_clamp": {
+     "acc": 0.973,
+     "leak": 0.002,
+     "unatt": 0.048,
+     "cueflip": 0.963
+    }
+   },
+   {
+    "seed": 2,
+    "none": {
+     "acc": 0.977,
+     "leak": 0.002,
+     "unatt": 0.042,
+     "cueflip": 0.981
+    },
+    "apical_clamp": {
+     "acc": 0.981,
+     "leak": 0.002,
+     "unatt": 0.034,
+     "cueflip": 0.982
+    },
+    "basket_clamp": {
+     "acc": 0.74,
+     "leak": 0.002,
+     "unatt": 0.499,
+     "cueflip": 0.753
+    },
+    "ais_open": {
+     "acc": 0.977,
+     "leak": 0.73,
+     "unatt": 0.042,
+     "cueflip": 0.981
+    },
+    "basket_context_clamp": {
+     "acc": 0.968,
+     "leak": 0.002,
+     "unatt": 0.051,
+     "cueflip": 0.976
+    }
+   },
+   {
+    "seed": 3,
+    "none": {
+     "acc": 0.968,
+     "leak": 0.003,
+     "unatt": 0.047,
+     "cueflip": 0.979
+    },
+    "apical_clamp": {
+     "acc": 0.966,
+     "leak": 0.003,
+     "unatt": 0.064,
+     "cueflip": 0.969
+    },
+    "basket_clamp": {
+     "acc": 0.76,
+     "leak": 0.001,
+     "unatt": 0.484,
+     "cueflip": 0.758
+    },
+    "ais_open": {
+     "acc": 0.968,
+     "leak": 0.697,
+     "unatt": 0.047,
+     "cueflip": 0.979
+    },
+    "basket_context_clamp": {
+     "acc": 0.96,
+     "leak": 0.002,
+     "unatt": 0.072,
+     "cueflip": 0.964
+    }
+   },
+   {
+    "seed": 4,
+    "none": {
+     "acc": 0.955,
+     "leak": 0.003,
+     "unatt": 0.058,
+     "cueflip": 0.951
+    },
+    "apical_clamp": {
+     "acc": 0.953,
+     "leak": 0.003,
+     "unatt": 0.073,
+     "cueflip": 0.943
+    },
+    "basket_clamp": {
+     "acc": 0.743,
+     "leak": 0.002,
+     "unatt": 0.499,
+     "cueflip": 0.751
+    },
+    "ais_open": {
+     "acc": 0.955,
+     "leak": 0.572,
+     "unatt": 0.058,
+     "cueflip": 0.951
+    },
+    "basket_context_clamp": {
+     "acc": 0.934,
+     "leak": 0.002,
+     "unatt": 0.076,
+     "cueflip": 0.922
+    }
+   }
+  ],
+  "e_hold": 0.003891874896362424,
+  "e_probe": 0.9954254150390625
+ },
+ "C3_jittered_clock_cue_tuft_only": {
+  "models": {
+   "doors": {
+    "acc": 0.9061,
+    "leak": 0.004171061189845204,
+    "unatt": 0.1678,
+    "cueflip": 0.9039999999999999,
+    "n": 5,
+    "min_acc": 0.756
+   }
+  },
+  "damage_mean": [
+   [
+    0.06974525346833495,
+    -5.9069576673209666e-05,
+    0.0972,
+    0.07273948480145614
+   ],
+   [
+    0.39728835221773096,
+    -0.0010196560760959983,
+    0.6192,
+    0.3801356196600307
+   ],
+   [
+    0.2639444198114704,
+    -0.0009395994478836655,
+    0.422,
+    0.2601885603787865
+   ],
+   [
+    0.0,
+    0.5561525258701294,
+    0.0,
+    0.0
+   ]
+  ],
+  "survival": {
+   "apical_clamp": "0/5",
+   "basket_clamp": "0/5",
+   "basket_context_clamp": "0/5",
+   "ais_open": "5/5"
+  },
+  "admission": {
+   "modeA_itemsA": 0.7315970540046692,
+   "modeA_itemsB": 0.6968731045722961,
+   "modeB_itemsA": 0.7321401476860047,
+   "modeB_itemsB": 0.7026682257652282,
+   "unit_phase_selectivity": 0.20621204376220703,
+   "unit_mode_selectivity": 0.054994703829288484,
+   "unit_mode_x_phase_attention": 0.017275399528443813
+  },
+  "per_seed": [
+   {
+    "seed": 0,
+    "none": {
+     "acc": 0.929,
+     "leak": 0.003,
+     "unatt": 0.101,
+     "cueflip": 0.917
+    },
+    "apical_clamp": {
+     "acc": 0.904,
+     "leak": 0.003,
+     "unatt": 0.11,
+     "cueflip": 0.894
+    },
+    "basket_clamp": {
+     "acc": 0.723,
+     "leak": 0.003,
+     "unatt": 0.468,
+     "cueflip": 0.744
+    },
+    "ais_open": {
+     "acc": 0.929,
+     "leak": 0.697,
+     "unatt": 0.101,
+     "cueflip": 0.917
+    },
+    "basket_context_clamp": {
+     "acc": 0.73,
+     "leak": 0.003,
+     "unatt": 0.476,
+     "cueflip": 0.749
+    }
+   },
+   {
+    "seed": 1,
+    "none": {
+     "acc": 0.756,
+     "leak": 0.001,
+     "unatt": 0.481,
+     "cueflip": 0.747
+    },
+    "apical_clamp": {
+     "acc": 0.762,
+     "leak": 0.002,
+     "unatt": 0.476,
+     "cueflip": 0.743
+    },
+    "basket_clamp": {
+     "acc": 0.756,
+     "leak": 0.002,
+     "unatt": 0.485,
+     "cueflip": 0.74
+    },
+    "ais_open": {
+     "acc": 0.756,
+     "leak": 0.128,
+     "unatt": 0.481,
+     "cueflip": 0.747
+    },
+    "basket_context_clamp": {
+     "acc": 0.757,
+     "leak": 0.002,
+     "unatt": 0.485,
+     "cueflip": 0.739
+    }
+   },
+   {
+    "seed": 2,
+    "none": {
+     "acc": 0.954,
+     "leak": 0.004,
+     "unatt": 0.075,
+     "cueflip": 0.958
+    },
+    "apical_clamp": {
+     "acc": 0.938,
+     "leak": 0.004,
+     "unatt": 0.098,
+     "cueflip": 0.948
+    },
+    "basket_clamp": {
+     "acc": 0.733,
+     "leak": 0.003,
+     "unatt": 0.482,
+     "cueflip": 0.748
+    },
+    "ais_open": {
+     "acc": 0.954,
+     "leak": 0.744,
+     "unatt": 0.075,
+     "cueflip": 0.958
+    },
+    "basket_context_clamp": {
+     "acc": 0.876,
+     "leak": 0.003,
+     "unatt": 0.218,
+     "cueflip": 0.881
+    }
+   },
+   {
+    "seed": 3,
+    "none": {
+     "acc": 0.945,
+     "leak": 0.005,
+     "unatt": 0.088,
+     "cueflip": 0.954
+    },
+    "apical_clamp": {
+     "acc": 0.931,
+     "leak": 0.005,
+     "unatt": 0.1,
+     "cueflip": 0.942
+    },
+    "basket_clamp": {
+     "acc": 0.731,
+     "leak": 0.003,
+     "unatt": 0.478,
+     "cueflip": 0.752
+    },
+    "ais_open": {
+     "acc": 0.945,
+     "leak": 0.593,
+     "unatt": 0.088,
+     "cueflip": 0.954
+    },
+    "basket_context_clamp": {
+     "acc": 0.788,
+     "leak": 0.004,
+     "unatt": 0.394,
+     "cueflip": 0.807
+    }
+   },
+   {
+    "seed": 4,
+    "none": {
+     "acc": 0.947,
+     "leak": 0.007,
+     "unatt": 0.095,
+     "cueflip": 0.945
+    },
+    "apical_clamp": {
+     "acc": 0.836,
+     "leak": 0.007,
+     "unatt": 0.299,
+     "cueflip": 0.836
+    },
+    "basket_clamp": {
+     "acc": 0.707,
+     "leak": 0.006,
+     "unatt": 0.474,
+     "cueflip": 0.699
+    },
+    "ais_open": {
+     "acc": 0.947,
+     "leak": 0.64,
+     "unatt": 0.095,
+     "cueflip": 0.945
+    },
+    "basket_context_clamp": {
+     "acc": 0.795,
+     "leak": 0.005,
+     "unatt": 0.32,
+     "cueflip": 0.777
+    }
+   }
+  ],
+  "e_hold": 0.008464937005192042,
+  "e_probe": 0.9422677278518676
+ }
+}
