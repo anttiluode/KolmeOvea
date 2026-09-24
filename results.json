@@ -1,0 +1,187 @@
+{
+ "E1_apical": {
+  "apical": {
+   "corr_selected": 0.90531363262405,
+   "corr_other": 0.09099494421748988,
+   "selectivity": 0.8143186884065601,
+   "readout_rate_with_content": 23.55,
+   "readout_rate_content_absent": 0.0
+  },
+  "none": {
+   "corr_selected": 0.6257000371352286,
+   "corr_other": 0.6175953988453733,
+   "selectivity": 0.008104638289855304,
+   "readout_rate_with_content": 10.14861111111111,
+   "readout_rate_content_absent": 0.0
+  },
+  "additive_4mV": {
+   "corr_selected": 0.766667213273777,
+   "corr_other": 0.518711356010057,
+   "selectivity": 0.24795585726371994,
+   "readout_rate_with_content": 27.42222222222222,
+   "readout_rate_content_absent": 0.0
+  },
+  "additive_8mV": {
+   "corr_selected": 0.7148814413843984,
+   "corr_other": 0.5804033143786198,
+   "selectivity": 0.13447812700577855,
+   "readout_rate_with_content": 42.731944444444444,
+   "readout_rate_content_absent": 7.055555555555556
+  },
+  "additive_12mV": {
+   "corr_selected": 0.7004426974643287,
+   "corr_other": 0.5808630828960675,
+   "selectivity": 0.11957961456826127,
+   "readout_rate_with_content": 56.708333333333336,
+   "readout_rate_content_absent": 26.13611111111111
+  },
+  "additive_16mV": {
+   "corr_selected": 0.6964724066579437,
+   "corr_other": 0.5943653881057458,
+   "selectivity": 0.10210701855219795,
+   "readout_rate_with_content": 70.34722222222221,
+   "readout_rate_content_absent": 40.830555555555556
+  }
+ },
+ "E2_basket": {
+  "rhythm_A_late": {
+   "corr_out_A": 0.9190278488781323,
+   "corr_out_B": 0.3013014108996322,
+   "mean_spikes_per_cycle": 27.85
+  },
+  "rhythm_A_early_retimed": {
+   "corr_out_A": 0.3193804176216839,
+   "corr_out_B": 0.91190805828924,
+   "mean_spikes_per_cycle": 28.325
+  },
+  "tonic_inhibition_same_mean": {
+   "corr_out_A": 0.5929081400418514,
+   "corr_out_B": 0.6970122791394251,
+   "mean_spikes_per_cycle": 23.6375
+  },
+  "admission_window": {
+   "phase_ms": [
+    0.5,
+    1.5,
+    2.5,
+    3.5,
+    4.5,
+    5.5,
+    6.5,
+    7.5,
+    8.5,
+    9.5,
+    10.5,
+    11.5,
+    12.5,
+    13.5,
+    14.5,
+    15.5,
+    16.5,
+    17.5,
+    18.5,
+    19.5,
+    20.5,
+    21.5,
+    22.5,
+    23.5,
+    24.5
+   ],
+   "extra_spikes_rhythm": [
+    13.333333333333334,
+    2.75,
+    0.4166666666666667,
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333,
+    0.3333333333333333,
+    0.25,
+    0.5833333333333334,
+    0.9166666666666666,
+    2.25,
+    2.75,
+    5.666666666666667,
+    6.916666666666667,
+    8.083333333333334,
+    11.416666666666666,
+    13.666666666666666,
+    16.25,
+    19.75,
+    21.75,
+    24.583333333333332,
+    27.583333333333332,
+    29.083333333333332,
+    30.25,
+    31.333333333333332
+   ],
+   "extra_spikes_tonic": [
+    3.75,
+    5.916666666666667,
+    4.583333333333333,
+    4.833333333333333,
+    4.75,
+    6.166666666666667,
+    5.25,
+    5.583333333333333,
+    4.666666666666667,
+    4.666666666666667,
+    5.0,
+    4.25,
+    4.25,
+    5.0,
+    4.333333333333333,
+    5.416666666666667,
+    4.666666666666667,
+    4.916666666666667,
+    5.25,
+    5.5,
+    5.083333333333333,
+    5.583333333333333,
+    5.0,
+    3.8333333333333335,
+    3.9166666666666665
+   ],
+   "open_fraction_of_cycle": 0.32,
+   "max_over_min_rhythm": 376.0,
+   "max_over_min_tonic": 1.6444444444444446
+  }
+ },
+ "E3_chandelier": {
+  "chandelier": {
+   "routeA_rate_muted": 0.0,
+   "routeB_rate_muted": 46.52777777777778,
+   "routeB_rate_unmuted": 15.083333333333332,
+   "frac_routeA_above_threshold_at_release": 1.0,
+   "mean_V_routeA_at_release": -43.000414339103244,
+   "unmuted_steady_V_for_new_level": -43.0,
+   "release_spikes_per_cell_first5ms": 1.0,
+   "release_volley_vs_steady_state": 2.6666666666666665,
+   "latency_to_80pct_new_rate_ms": 0.0,
+   "held_state_slope_dV_per_dInput": 0.9999999453584018,
+   "V_at_release_by_level": {
+    "18.0": -52.000413847328865,
+    "22.0": -48.00041406589526,
+    "27.0": -43.000414339103244,
+    "32.0": -38.00041461231124
+   }
+  },
+  "basket": {
+   "routeA_rate_muted": 0.0,
+   "routeB_rate_muted": 46.52777777777778,
+   "routeB_rate_unmuted": 15.083333333333332,
+   "frac_routeA_above_threshold_at_release": 0.0,
+   "mean_V_routeA_at_release": -67.00417190791698,
+   "unmuted_steady_V_for_new_level": -43.0,
+   "release_spikes_per_cell_first5ms": 0.0,
+   "release_volley_vs_steady_state": 0.0,
+   "latency_to_80pct_new_rate_ms": 15.0,
+   "held_state_slope_dV_per_dInput": 0.25000000000000167,
+   "V_at_release_by_level": {
+    "18.0": -69.254171907917,
+    "22.0": -68.25417190791698,
+    "27.0": -67.00417190791698,
+    "32.0": -65.75417190791698
+   }
+  }
+ }
+}
